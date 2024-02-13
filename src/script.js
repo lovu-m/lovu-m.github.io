@@ -42,7 +42,14 @@ function nope(){
 	no.style.width = "40px";
 	no.style.zIndex = 10;
 	noper += 1;
-	if (noper >= 5) {
+	if (noper == 5) {
 		alert("Dis 'oui' stp ☹️❤️❤️");
+	}
+	if (noper == 8) {
+		alert("Vraiment, cliques sur le 'oui', juste pour voir ☹️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️");
+	}
+	if (noper == 10) {
+		alert("Ehehehehehe, plus le choix, clique sur 'oui' 👀👀");
+		no.style.display = "none";
 	}
 }
