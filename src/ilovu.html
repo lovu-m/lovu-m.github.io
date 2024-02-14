@@ -4,8 +4,10 @@
 	<meta charset="utf-8"/>
     <link rel="icon" href="../assets/icon.png" />
     <title>Pour toi manooon</title>
-    <script src="./script.js" defer></script>
     <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body onresize="resize()">
@@ -49,6 +51,14 @@
 			<img src="../assets/4.jpg" alt="discord icon">
 		</div>
 	</div>
-	<script>alert("Je me suis donné du mal,\n\n envoie photo de tes pieds stp ☹️❤️❤️");</script>
+
+	<script>
+	alert("Je me suis donné du mal,\n\n envoie photo de tes pieds stp ☹️❤️❤️");
+
+	const jsConfetti = new JSConfetti();
+        jsConfetti.addConfetti({
+            emojis: ['🌈', '💋', '❤️', '✨', '💫', '🌸', '💕'], emojiSize: 100, confettiNumb: 100,
+        })
+	</script>
 </body>
 </html>
