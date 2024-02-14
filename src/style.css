@@ -156,7 +156,13 @@ button:hover {
 .links img {
     height: 50px;
     margin: 20px;
+    margin-bottom: 15%;
     cursor: pointer;
+    transition: 0.25s;
+}
+
+.links img:hover {
+    height: 150px;
 }
 
 .links {
